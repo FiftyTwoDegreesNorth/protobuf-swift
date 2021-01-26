@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.module_name = "ProtocolBuffers"
-  s.source       = { :git => "https://github.com/FiftyTwoDegreesNorth/protobuf-swift.git", :tag => s.version }
+  s.source       = { :git => "git@github.com:FiftyTwoDegreesNorth/protobuf-swift.git", :tag => s.version }
   s.source_files = 'Source/*.{swift}'
   s.requires_arc = true
   s.frameworks   = 'Foundation'
